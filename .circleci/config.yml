@@ -28,4 +28,4 @@ jobs:
       - run:
           name: scantist
           command: |
-            bash <(curl -s https://scripts.scantist.com/staging/ci-circle.sh)
+            bash <(curl -s https://scripts.scantist.com/staging/ci-circle.sh) 
