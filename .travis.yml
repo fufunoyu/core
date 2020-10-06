@@ -57,7 +57,7 @@ matrix:
     - php: 7.2
       if: type = cron
       env: DB=pgsql TC=selenium BROWSER="chrome" BROWSER_VERSION="latest" BEHAT_SUITE="webUILogin" PLATFORM="Windows 10" TEST_DAV=0
-      addons:
+      addons: 
         apt: *common_apt
         hosts: *common_hosts
         sauce_connect: true
